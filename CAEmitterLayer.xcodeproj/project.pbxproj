@@ -13,6 +13,9 @@
 		C90D120D2654FC6A004C5961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90D120B2654FC6A004C5961 /* Main.storyboard */; };
 		C90D120F2654FC6A004C5961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90D120E2654FC6A004C5961 /* Assets.xcassets */; };
 		C90D12122654FC6A004C5961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90D12102654FC6A004C5961 /* LaunchScreen.storyboard */; };
+		C9C0F18F26553F5B00F43A54 /* fireworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C0F18E26553F5B00F43A54 /* fireworkViewController.swift */; };
+		C9C0F191265540E100F43A54 /* meteorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C0F190265540E100F43A54 /* meteorViewController.swift */; };
+		C9C0F193265547BB00F43A54 /* rabbitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C0F192265547BB00F43A54 /* rabbitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C90D120E2654FC6A004C5961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C90D12112654FC6A004C5961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C90D12132654FC6A004C5961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C0F18E26553F5B00F43A54 /* fireworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fireworkViewController.swift; sourceTree = "<group>"; };
+		C9C0F190265540E100F43A54 /* meteorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meteorViewController.swift; sourceTree = "<group>"; };
+		C9C0F192265547BB00F43A54 /* rabbitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rabbitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				C90D12052654FC6A004C5961 /* AppDelegate.swift */,
 				C90D12072654FC6A004C5961 /* SceneDelegate.swift */,
 				C90D12092654FC6A004C5961 /* ViewController.swift */,
+				C9C0F192265547BB00F43A54 /* rabbitViewController.swift */,
 				C90D120B2654FC6A004C5961 /* Main.storyboard */,
+				C9C0F18E26553F5B00F43A54 /* fireworkViewController.swift */,
+				C9C0F190265540E100F43A54 /* meteorViewController.swift */,
 				C90D120E2654FC6A004C5961 /* Assets.xcassets */,
 				C90D12102654FC6A004C5961 /* LaunchScreen.storyboard */,
 				C90D12132654FC6A004C5961 /* Info.plist */,
@@ -137,9 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C0F191265540E100F43A54 /* meteorViewController.swift in Sources */,
 				C90D120A2654FC6A004C5961 /* ViewController.swift in Sources */,
 				C90D12062654FC6A004C5961 /* AppDelegate.swift in Sources */,
 				C90D12082654FC6A004C5961 /* SceneDelegate.swift in Sources */,
+				C9C0F193265547BB00F43A54 /* rabbitViewController.swift in Sources */,
+				C9C0F18F26553F5B00F43A54 /* fireworkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
